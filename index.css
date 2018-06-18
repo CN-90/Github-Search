@@ -3,6 +3,25 @@ body, html {
   padding: 0px;
 }
 
-.container {
- 
+.jumbotron {
+  border-radius: 10px;
+  font-weight: normal;
+
+}
+
+h4, h2 {
+  padding: 5px;
+  font-weight: normal;
+}
+
+input {
+  text-align: center;
+}
+
+i {
+ text-align: center;
+}
+
+img {
+  max-height: 300px;
 }

@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
 </head>
 
 <body>
@@ -18,9 +20,71 @@
     </div>
   </nav>
 
+  <!-- Navbar End -->
+  <!-- Navbar End -->
+  <!-- Navbar End -->
+
   <div class="container mt-5">
-    <h1 class='text-center'>Search for Github users</h1>
-    <p class="lead text-center">Enter github username</p>
+    <div class="jumbotron jumbotron-fluid">
+      <div style='text-align: center;'>
+        <i class="fab fa-github-alt fa-6x"></i>
+      </div>
+      <h1 class='text-center'>Github Search</h1>
+      <form>
+        <div class="row">
+          <div class="col-md-6" style='margin: 0 auto;'>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter github username">
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Search Jumbo End -->
+    <!-- Search Jumbo End -->
+    <!-- Search Jumbo End -->
+
+    <div id="user-info">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <h4 class="card-text text-center">Card title</h4>
+            <img class="card-img-top" src="https://avatars0.githubusercontent.com/u/36390052?v=4" alt="Card image cap">
+            <div class="card-body text-center">
+              <a href="#" class="btn btn-primary">View Page</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <ul class="list-group">
+            <li class="list-group-item">Location: Tucson, Arizona</li>
+            <li class="list-group-item">Bio: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, enim.</li>
+            <li class="list-group-item">Company:</li>
+            <li class="list-group-item">Website: </li>
+            <li class="list-group-item">Blog: N/A</li>
+            <li class="list-group-item">Followers: 0</li>
+            <li class="list-group-item">Following: 14</li>
+            <li class="list-group-item">User Since: </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class='pt-5' id="repositories">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>7 Repositories</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 
   <script src='./scripts/index.js'></script>

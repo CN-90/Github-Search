@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const Github = require('./Github');
 
-let gitHub = new Github();
+const gitHub = new Github();
 
 app.get('/', (req, res) => {
   res.send("Hello from the main page.")
