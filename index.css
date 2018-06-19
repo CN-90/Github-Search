@@ -9,6 +9,10 @@ body, html {
 
 }
 
+.btn {
+  border-radius: 5px;
+}
+
 h4, h2 {
   padding: 5px;
   font-weight: normal;
